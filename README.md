@@ -1,16 +1,17 @@
 # metrics_bubble_flutter
 
-A new Flutter project.
+This Flutter project was created as an interview coding challenge. 
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+This project is to code a small "metrics" widget that we can reuse across different views. This widget displays a weight and a label.
 
-A few resources to get you started if this is your first Flutter project:
+The widget is comprised of the following pieces:
+- Label, STRING (ex: "Upper Body" or "Core")
+- Weight, INTEGER (between 0 and 350)
+- Unit (always "lbs")
+- Background circle with graph
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Regarding fonts, the label font is Helventica. The weight and unit fonts are League Gothic.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+When delivering this widget, please build a screen that demonstrates its use. This screen should also include a form that allows the user to modify the Label and the Weight to see the widget update as changes are made to the form.
